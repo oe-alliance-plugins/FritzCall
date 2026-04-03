@@ -81,7 +81,7 @@ from .nrzuname import ReverseLookupAndNotifier  # @UnresolvedImport
 from . import __  # @UnresolvedImport # pylint: disable=unused-import,import-error
 try:
 	from enigma import eMediaDatabase  # @UnresolvedImport @UnusedImport # pylint disable=ungrouped-imports
-except ImportError as ie:
+except ImportError:
 	from . import _  # @UnresolvedImport
 
 if six.PY3:
@@ -406,7 +406,7 @@ class FritzAbout(Screen):
 		self.close()
 
 
-from .FritzCallFBF import FBF_dectActive, FBF_faxActive, FBF_rufumlActive, FBF_tamActive, FBF_wlanState  # @UnresolvedImport # pylint: disable=unused-import,wrong-import-position
+from .FritzCallFBF import FBF_dectActive, FBF_faxActive, FBF_rufumlActive, FBF_tamActive  # @UnresolvedImport # pylint: disable=unused-import,wrong-import-position
 
 
 class FritzMenu(Screen, HelpableScreen):

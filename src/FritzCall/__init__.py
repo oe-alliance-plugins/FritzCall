@@ -38,8 +38,7 @@ import requests  # @UnresolvedImport # pylint: disable=unused-import,import-erro
 
 from Components.config import config  # @UnresolvedImport
 from Components.Language import language
-from Tools.Directories import resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS, SCOPE_SKIN_IMAGE  # @UnresolvedImport
-from enigma import eBackgroundFileEraser
+from Tools.Directories import resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS  # @UnresolvedImport
 
 from twisted.internet.threads import deferToThread
 
