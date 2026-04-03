@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "Show Incoming and Outgoing Calls on your TV Screen with a Fritz!Box",
+  "description_recipe": "Show Incoming and Outgoing Calls on your TV Screen with a Fritz!Box",
+  "history_source_dir": "fritzcall",
+  "internal_package_name": "enigma2-plugin-extensions-fritzcall",
+  "module_dir_name": "FritzCall",
+  "output_subdir": "fritzcall",
+  "package_name": "enigma2-plugin-extensions-fritzcall",
+  "plugin_src_rel": "fritzcall",
+  "python_package": "FritzCall",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "fritzcall",
+  "rrecommends": "",
+  "rreplaces": ""
+}
