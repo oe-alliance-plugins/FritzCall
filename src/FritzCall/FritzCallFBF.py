@@ -52,8 +52,8 @@ from six.moves.urllib.parse import urlencode
 from . import __, getPage  # @UnresolvedImport # pylint: disable=W0611,F0401
 from .nrzuname import html2unicode  # @UnresolvedImport
 try:
-	from enigma import eMediaDatabase  # @UnresolvedImport @UnusedImport
-except ImportError as ie:
+	from enigma import eMediaDatabase  # @UnresolvedImport @UnusedImport  # noqa: F401
+except ImportError:
 	from . import _  # @UnresolvedImport
 from .plugin import config, stripCbCPrefix, resolveNumberWithAvon, FBF_IN_CALLS, FBF_OUT_CALLS, FBF_MISSED_CALLS, FBF_BLOCKED_CALLS, decode  # @UnresolvedImport
 from .FritzConnection import FritzConnection  # @UnresolvedImport
@@ -4266,7 +4266,7 @@ class FritzCallFBF_upnp():
 					self.info("Ignoring entry with empty number for '''%s'''", (__(thisname)))
 					continue
 				else:
-					dummy = _("fax_work") + _("fax_home") + _("pager")  # this is just to trigger localisation; WTF?!?!
+					dummy = _("fax_work") + _("fax_home") + _("pager")  # this is just to trigger localisation; WTF?!?!  # noqa: F841
 					thisType = number.attrib["type"]
 					# self.debug("thisType: %s",  thisType)
 					if thisType.startswith('label:'):
