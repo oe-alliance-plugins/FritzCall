@@ -380,7 +380,7 @@ class FritzXmlParser(object):
 		self.info("Switching to http")
 		config.plugins.FritzCall.useHttps.value = False
 		config.plugins.FritzCall.useHttps.save()
-		source = 'http://{0}:{1}/{2}'.format(address, port, filename)  # @UndefinedVariable
+		source = 'http://{0}:{1}/{2}'.format(address, port, filename)  # @UndefinedVariable  # noqa: F821
 		self.debug("source: %s", source)
 		getPage(source,
 				method="GET",).addCallback(self._okInit).addErrback(self._errorInit)
