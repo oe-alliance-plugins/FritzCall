@@ -80,7 +80,7 @@ from six.moves import zip, range
 from .nrzuname import ReverseLookupAndNotifier  # @UnresolvedImport
 from . import __  # @UnresolvedImport # pylint: disable=unused-import,import-error
 try:
-	from enigma import eMediaDatabase  # @UnresolvedImport @UnusedImport # pylint disable=ungrouped-imports
+	from enigma import eMediaDatabase  # @UnresolvedImport @UnusedImport # pylint disable=ungrouped-imports  # noqa: F401
 except ImportError:
 	from . import _  # @UnresolvedImport
 

@@ -33,7 +33,7 @@ import gettext
 import os
 import re
 import logging
-from logging import NOTSET
+from logging import NOTSET  # noqa: F401
 import requests  # @UnresolvedImport # pylint: disable=unused-import,import-error
 
 from Components.config import config  # @UnresolvedImport
