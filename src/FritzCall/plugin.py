@@ -105,6 +105,11 @@ else:
 	def decode(text):
 		return ''.join(chr(ord(c) ^ ord(k)) for c, k in zip(base64.b64decode(text), cycle('secret key')))
 
+
+from .FritzCallFBF import FBF_dectActive, FBF_faxActive, FBF_rufumlActive, FBF_tamActive  # @UnresolvedImport # pylint: disable=unused-import,wrong-import-position
+from . import FritzCallFBF  # @UnresolvedImport  #  pylint: disable=wrong-import-position
+
+
 DESKTOP_WIDTH = getDesktop(0).size().width()
 DESKTOP_HEIGHT = getDesktop(0).size().height()
 
@@ -339,9 +344,6 @@ def stripCbCPrefix(number, countrycode):
 	return number
 
 
-from . import FritzCallFBF  # @UnresolvedImport  #  pylint: disable=wrong-import-position
-
-
 class FritzAbout(Screen):
 
 	def __init__(self, session):
@@ -404,9 +406,6 @@ class FritzAbout(Screen):
 
 	def exit(self):
 		self.close()
-
-
-from .FritzCallFBF import FBF_dectActive, FBF_faxActive, FBF_rufumlActive, FBF_tamActive  # @UnresolvedImport # pylint: disable=unused-import,wrong-import-position
 
 
 class FritzMenu(Screen, HelpableScreen):
