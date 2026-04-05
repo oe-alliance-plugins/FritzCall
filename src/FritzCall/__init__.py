@@ -30,7 +30,6 @@ $Date: 2025-08-10 15:02:41 +0200 (So., 10 Aug. 2025) $
 
 from __future__ import division
 import gettext
-import os
 import re
 import logging
 from logging import NOTSET  # noqa: F401
@@ -45,7 +44,7 @@ from twisted.internet.threads import deferToThread
 from six.moves import range
 
 lang = language.getLanguage()
-os.environ["LANGUAGE"] = lang[:2]
+# os.environ["LANGUAGE"] = lang[:2]
 gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
 gettext.textdomain("enigma2")
 gettext.bindtextdomain("FritzCall", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "Extensions/FritzCall/locale/"))

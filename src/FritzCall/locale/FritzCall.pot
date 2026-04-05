@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FritzCall 1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:34+0200\n"
+"POT-Creation-Date: 2025-10-22 10:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -201,6 +201,9 @@ msgid ""
 "%(number)s\n"
 "\n"
 "%(name)s?"
+msgstr ""
+
+msgid "Do you really want to reboot your Fritz!Box?"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button

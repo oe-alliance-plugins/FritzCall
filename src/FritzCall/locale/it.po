@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2  - FRITZ!Box\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:34+0200\n"
+"POT-Creation-Date: 2025-10-22 10:10+0200\n"
 "PO-Revision-Date: 2015-04-14 23:22+0200\n"
 "Last-Translator: Spaeleus <spaeleus@croci.org>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
@@ -130,13 +130,12 @@ msgstr ""
 msgid "Could not get call list; wrong version?"
 msgstr "Impossibile ottenere elenco chiamate: versione errata?"
 
-#, fuzzy
 msgid "Could not load barring list: "
-msgstr "FRITZ!Box - Impossibile caricare le chiamate: %s"
+msgstr ""
 
-#, fuzzy, python-format
+#, python-format
 msgid "Could not load barring list: %s"
-msgstr "FRITZ!Box - Impossibile caricare le chiamate: %s"
+msgstr ""
 
 msgid "Could not load deflections list: "
 msgstr ""
@@ -217,6 +216,9 @@ msgstr ""
 "%(number)s\n"
 "\n"
 "%(name)s?"
+
+msgid "Do you really want to reboot your Fritz!Box?"
+msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button
 msgid "Edit"

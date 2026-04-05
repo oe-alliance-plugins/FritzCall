@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 FritzCall Plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-10 12:34+0200\n"
-"PO-Revision-Date: 2019-01-21 08:53+0100\n"
+"POT-Creation-Date: 2025-10-22 10:10+0200\n"
+"PO-Revision-Date: 2025-10-22 10:38+0200\n"
 "Last-Translator: Michael Schmidt <michael@schmidt-schmitten.com>\n"
 "Language-Team: german <de@li.org>\n"
 "Language: de\n"
@@ -128,17 +128,15 @@ msgstr ""
 msgid "Could not get call list; wrong version?"
 msgstr "Konnte Anrufliste nicht bekommen; falsche Firmware-Version?"
 
-#, fuzzy
 msgid "Could not load barring list: "
-msgstr "Konnte Telefonbuch nicht laden: "
+msgstr "Konnte Sperrliste nicht laden: "
 
-#, fuzzy, python-format
+#, python-format
 msgid "Could not load barring list: %s"
-msgstr "\"Telefonbuch konnte nicht geladen werden: %ss"
+msgstr "Konnte Sperrliste nicht laden: %s"
 
-#, fuzzy
 msgid "Could not load deflections list: "
-msgstr "Konnte Telefonbuch nicht laden: "
+msgstr "Konnte Liste der Rufumleitungen nicht laden: "
 
 msgid "Could not load phonebook: "
 msgstr "Konnte Telefonbuch nicht laden: "
@@ -151,7 +149,8 @@ msgid "Could not parse FRITZ!Box Phonebook entry"
 msgstr "Konnte Eintrag in FRITZ!Box-Telefonbuch nicht lesen"
 
 msgid "Could not read FRITZ!Box phonebook; wrong version?"
-msgstr "Konnte Telefonbuch der FRITZ!Box nicht lesen; falsche Firmware-Version?"
+msgstr ""
+"Konnte Telefonbuch der FRITZ!Box nicht lesen; falsche Firmware-Version?"
 
 msgid "Country"
 msgstr "Land"
@@ -216,6 +215,9 @@ msgstr ""
 "%(name)s\n"
 "\n"
 "für %(number)s wirklich gelöscht werden?"
+
+msgid "Do you really want to reboot your Fritz!Box?"
+msgstr "Soll die Fritz!Box neu gestartet werden?"
 
 #. TRANSLATORS: keep it short, this is a button
 msgid "Edit"
@@ -314,8 +316,12 @@ msgstr "FRITZ!Box Fon Status"
 msgid "FRITZ!Box PhoneBook to read"
 msgstr "Einzulesendes FRITZ!Box Telefonbuch"
 
-msgid "FRITZ!Box firmware version not configured! Please set it in the configuration."
-msgstr "FRITZ!Box Firmware-Version nicht konfiguriert! Bitte in der Konfiguration setzen."
+msgid ""
+"FRITZ!Box firmware version not configured! Please set it in the "
+"configuration."
+msgstr ""
+"FRITZ!Box Firmware-Version nicht konfiguriert! Bitte in der Konfiguration "
+"setzen."
 
 msgid "FRITZ!Box not available for calling"
 msgstr "FRITZ!Box für Anrufe nicht verfügbar"
@@ -614,8 +620,12 @@ msgstr ""
 msgid "Timeout for Call Notifications (seconds)"
 msgstr "Anzeigedauer in Sekunden"
 
-msgid "To enjoy more functionalities of your FRITZ!Box, configure the firmware version!"
-msgstr "Um mehr Funktionalitäten der FRITZ!Box zu bekommen, konfigurieren Sie die Firmware-Version"
+msgid ""
+"To enjoy more functionalities of your FRITZ!Box, configure the firmware "
+"version!"
+msgstr ""
+"Um mehr Funktionalitäten der FRITZ!Box zu bekommen, konfigurieren Sie die "
+"Firmware-Version"
 
 #. TRANSLATORS: keep it short, this is a help text
 msgid "Toggle 1. mailbox"
@@ -665,7 +675,7 @@ msgid "Update available"
 msgstr "Update verfügbar"
 
 msgid "Use HTTPS to communicate with FRITZ!Box"
-msgstr "Benutze HTTPS für Kommunikation mit FRITZ!Box"
+msgstr "Benutze HTTPS für die Kommunikation mit der FRITZ!Box"
 
 msgid "Use internal PhoneBook"
 msgstr "Benutze internes Telefonbuch"
@@ -680,7 +690,9 @@ msgid "WLAN not active"
 msgstr "WLAN nicht aktiviert"
 
 msgid "You need to enable the monitoring on your FRITZ!Box by dialing #96*5*!"
-msgstr "Monitoring auf der FRITZ!Box muss durch Wählen von #96*5* eingeschaltet werden!"
+msgstr ""
+"Monitoring auf der FRITZ!Box muss durch Wählen von #96*5* eingeschaltet "
+"werden!"
 
 msgid ""
 "You need to set the password of the FRITZ!Box\n"

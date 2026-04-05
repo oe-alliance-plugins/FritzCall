@@ -2,9 +2,9 @@
 '''
 Update rev
 $Author: michael $
-$Revision: 1663 $
-$Date: 2025-09-01 12:18:11 +0200 (Mo., 01 Sept. 2025) $
-$Id: plugin.py 1663 2025-09-01 10:18:11Z michael $
+$Revision: 1668 $
+$Date: 2025-11-08 10:49:55 +0100 (Sa., 08 Nov. 2025) $
+$Id: plugin.py 1668 2025-11-08 09:49:55Z michael $
 '''
 
 
@@ -394,8 +394,8 @@ class FritzAbout(Screen):
 		self["text"] = Label(
 							"FritzCall Plugin" + "\n\n" +
 							"$Author: michael $"[1:-2] + "\n" +
-							"$Revision: 1663 $"[1:-2] + "\n" +
-							"$Date: 2025-09-01 12:18:11 +0200 (Mo., 01 Sept. 2025) $"[1:23] + "\n"
+							"$Revision: 1668 $"[1:-2] + "\n" +
+							"$Date: 2025-11-08 10:49:55 +0100 (Sa., 08 Nov. 2025) $"[1:23] + "\n"
 							)
 		self["url"] = Label("http://wiki.blue-panel.com/index.php/FritzCall")
 		self.onLayoutFinish.append(self.setWindowTitle)
@@ -1077,8 +1077,12 @@ class FritzMenu(Screen, HelpableScreen):
 		fritzbox.changeGuestAccess(self._guestActive, self._getInfo)
 
 	def _reset(self):
-		fritzbox.reset()
-		self._exit()
+		self.session.openWithCallback(self._rebootFB, MessageBox, _("Do you really want to reboot your Fritz!Box?"), MessageBox.TYPE_YESNO)
+
+	def _rebootFB(self, confirm):
+		if confirm:
+			fritzbox.reset()
+			self._exit()
 
 	def _exit(self):
 		self.close()
@@ -2173,7 +2177,7 @@ class FritzCallSetup(ConfigListScreen, Screen, HelpableScreen):
 
 	def setWindowTitle(self):
 		# TRANSLATORS: this is a window title.
-		self.setTitle(_("FritzCall Setup") + " (" + "$Revision: 1663 $"[1:-1] + "$Date: 2025-09-01 12:18:11 +0200 (Mo., 01 Sept. 2025) $"[7:23] + ")")
+		self.setTitle(_("FritzCall Setup") + " (" + "$Revision: 1668 $"[1:-1] + "$Date: 2025-11-08 10:49:55 +0100 (Sa., 08 Nov. 2025) $"[7:23] + ")")
 
 	def keyLeft(self):
 		ConfigListScreen.keyLeft(self)
@@ -2747,7 +2751,7 @@ class FritzReverseLookupAndNotifier(object):
 
 class FritzProtocol(LineReceiver):  # pylint: disable=abstract-method
 	def __init__(self):
-		info("[FritzProtocol] %s%s starting", "$Revision: 1663 $"[1:-1], "$Date: 2025-09-01 12:18:11 +0200 (Mo., 01 Sept. 2025) $"[7:23])
+		info("[FritzProtocol] %s%s starting", "$Revision: 1668 $"[1:-1], "$Date: 2025-11-08 10:49:55 +0100 (Sa., 08 Nov. 2025) $"[7:23])
 		global mutedOnConnID
 		mutedOnConnID = None
 		self.number = '0'
