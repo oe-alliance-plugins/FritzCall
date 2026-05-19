@@ -43,6 +43,9 @@ from twisted.internet.threads import deferToThread
 
 from six.moves import range
 
+PluginLanguageDomain = "FritzCall"
+
+
 lang = language.getLanguage()
 # os.environ["LANGUAGE"] = lang[:2]
 gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))

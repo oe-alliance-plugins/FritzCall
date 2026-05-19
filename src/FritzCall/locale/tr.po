@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 FritzCall Plugin Turkish Locale\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-22 10:10+0200\n"
+"POT-Creation-Date: 2026-05-19 16:40+0200\n"
 "PO-Revision-Date: 2009-07-29 20:37+0200\n"
 "Last-Translator: Zülfikar VEYİSOĞLU <z.veyisoglu@hobiagaci.com>\n"
 "Language-Team: http://hobiagaci.com <z.veyisoglu@hobiagaci.com>\n"
@@ -15,90 +15,117 @@ msgstr ""
 "X-Poedit-Country: TURKEY\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#: ../plugin.py:143
 msgid "05.29 until below 6.35"
 msgstr ""
 
+#: ../plugin.py:143
 msgid "06.35 and newer"
 msgstr ""
 
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:404 ../plugin.py:2133 ../plugin.py:2164
 msgid "About FritzCall"
 msgstr "FritzCall hakkında"
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:833 ../plugin.py:1048
 msgid "Activate WLAN guest access"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: this is a window title.
+#: ../plugin.py:1796 ../plugin.py:1962
 msgid "Add entry to phonebook"
 msgstr "Rehbere yeni kayit ekle"
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1219
 msgid "All"
 msgstr "Tümü"
 
+#: ../plugin.py:217
 msgid "All calls"
 msgstr "Tüm aramalar"
 
+#: ../plugin.py:2239
 msgid "Append shortcut number"
 msgstr "Çağrıda kısayol kodunu göster"
 
+#: ../plugin.py:2238
 msgid "Append type of number"
 msgstr "Çağrıda numara tipini göster"
 
+#: ../plugin.py:2240
 msgid "Append vanity name"
 msgstr "Çağrıda vanity kodunu göster"
 
+#: ../plugin.py:2213
 msgid "Areacode to add to calls without one (if necessary)"
 msgstr ""
 
+#: ../plugin.py:204
 msgid "Austria"
 msgstr "Avusturya"
 
+#: ../plugin.py:2247
 msgid "Automatically add new Caller to PhoneBook"
 msgstr "Kayıtsız arayan kişisini, rehbere otomatik olarak ekle"
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1409
 msgid "Call"
 msgstr "Ara"
 
+#: ../plugin.py:664
 msgid "Call diversion"
 msgstr ""
 
+#: ../plugin.py:1022
 msgid "Call diversion active"
 msgstr ""
 
+#: ../plugin.py:2195
 msgid "Call monitoring"
 msgstr "Çağrı görüntüleme"
 
+#: ../plugin.py:868
 msgid "Call redirection"
 msgstr "Çağrı yönlendirme"
 
+#: ../plugin.py:1481
 #, python-format
 msgid "Calling %s"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1933 ../plugin.py:2125
 msgid "Cancel"
 msgstr "Vazgeç"
 
+#: ../plugin.py:2329 ../plugin.py:3015
 msgid "Cannot get calls from FRITZ!Box"
 msgstr ""
 
+#: ../FritzCallFBF.py:4070 ../FritzCallFBF.py:4305 ../FritzCallFBF.py:4325
+#: ../FritzCallFBF.py:4366 ../FritzCallFBF.py:4540 ../FritzCallFBF.py:4565
+#: ../plugin.py:2350 ../plugin.py:3035
 msgid ""
 "Cannot get infos from FRITZ!Box yet\n"
 "Still initialising or wrong firmware version"
 msgstr ""
 
+#: ../plugin.py:913 ../plugin.py:919
 msgid "Connected since"
 msgstr "Bağlantı süresi : "
 
+#: ../plugin.py:2931
 msgid "Connected to FRITZ!Box!"
 msgstr "FRITZ!Box'a bağlanıldı!"
 
+#: ../plugin.py:2981
 #, python-format
 msgid ""
 "Connecting to FRITZ!Box failed\n"
@@ -109,9 +136,11 @@ msgstr ""
 " (%s)\n"
 "yeniden deneniyor..."
 
+#: ../plugin.py:2925
 msgid "Connecting to FRITZ!Box..."
 msgstr "FRITZ!Box'a bağlanılıyor..."
 
+#: ../plugin.py:2974
 #, python-format
 msgid ""
 "Connection to FRITZ!Box! lost\n"
@@ -122,82 +151,108 @@ msgstr ""
 " (%s)\n"
 "yeniden deneniyor..."
 
+#: ../FritzCallFBF.py:546
 msgid "Could not get call list; wrong version?"
 msgstr ""
 
+#: ../FritzCallFBF.py:4373
 msgid "Could not load barring list: "
 msgstr ""
 
+#: ../FritzCallFBF.py:4385
 #, python-format
 msgid "Could not load barring list: %s"
 msgstr ""
 
+#: ../FritzCallFBF.py:4513
 msgid "Could not load deflections list: "
 msgstr ""
 
+#: ../FritzCallFBF.py:4206 ../FritzCallFBF.py:4223 ../FritzCallFBF.py:4395
+#: ../FritzCallFBF.py:4468
 msgid "Could not load phonebook: "
 msgstr ""
 
+#: ../FritzCallFBF.py:450 ../FritzCallFBF.py:1440 ../FritzCallFBF.py:2126
+#: ../FritzCallFBF.py:2908 ../FritzCallFBF.py:4229 ../FritzCallFBF.py:4401
+#: ../FritzCallFBF.py:4474 ../plugin.py:1540
 #, python-format
 msgid "Could not load phonebook: %s"
 msgstr ""
 
+#: ../FritzCallFBF.py:1436 ../FritzCallFBF.py:2121
 msgid "Could not parse FRITZ!Box Phonebook entry"
 msgstr "FRITZ!Box rehber kaydı ayrıştırılamıyor"
 
+#: ../FritzCallFBF.py:446
 msgid "Could not read FRITZ!Box phonebook; wrong version?"
 msgstr ""
 
+#: ../plugin.py:2216
 msgid "Country"
 msgstr "Ülke"
 
+#: ../plugin.py:2221
 msgid "Countrycode (e.g. 0044 for UK, 0034 for Spain, etc.)"
 msgstr ""
 
+#: ../plugin.py:1007
 msgid "DECT inactive"
 msgstr ""
 
+#: ../plugin.py:1003
 msgid "DECT phones registered"
 msgstr "DECT telefon tanıtılmış"
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1045
 msgid "Deactivate WLAN guest access"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1772
 msgid "Delete"
 msgstr "Sil"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:1794
 msgid "Delete entry"
 msgstr "Kayıt sil"
 
+#: ../plugin.py:3066
 msgid "Display FRITZ!box-Fon calls on screen"
 msgstr "FRITZ!Box aramalarını ekranda göster"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:1241
 msgid "Display all calls"
 msgstr "Tüm aramaları göster"
 
+#: ../plugin.py:2259
 msgid "Display connection infos"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:1245
 msgid "Display incoming calls"
 msgstr "Gelen aramaları göster"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:1243
 msgid "Display missed calls"
 msgstr "Cevapsız aramaları göster"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:1247
 msgid "Display outgoing calls"
 msgstr "Giden aramaları göster"
 
 #. TRANSLATORS: this is a window title.
+#: ../plugin.py:1439
 msgid "Do what?"
 msgstr "Ne yapmak istiyorsunuz?"
 
+#: ../plugin.py:1856
 #, python-format
 msgid ""
 "Do you really want to delete entry for\n"
@@ -212,111 +267,152 @@ msgstr ""
 "\n"
 "%(name)s?"
 
+#: ../plugin.py:1083
 msgid "Do you really want to reboot your Fritz!Box?"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1776
 msgid "Edit"
 msgstr "Düzelt"
 
 #. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: this is a window title.
+#: ../plugin.py:1798 ../plugin.py:1959
 msgid "Edit selected entry"
 msgstr "Seçili kaydı düzelt"
 
+#: ../plugin.py:1970
 msgid "Entry incomplete."
 msgstr "Giriş tamamlanmamış."
 
+#: ../plugin.py:2255
 msgid "Extended Search for faces"
 msgstr ""
 
+#: ../plugin.py:2254
 msgid "Extended Search for names"
 msgstr ""
 
+#: ../plugin.py:2227
 msgid "Extension number to initiate call on"
 msgstr "Dış hatta ulaşmak için çevrilen numara"
 
+#: ../FritzCallFBF.py:450 ../FritzCallFBF.py:1440 ../FritzCallFBF.py:2126
+#: ../FritzCallFBF.py:2908 ../FritzCallFBF.py:4206 ../FritzCallFBF.py:4223
+#: ../FritzCallFBF.py:4229 ../FritzCallFBF.py:4373 ../FritzCallFBF.py:4385
+#: ../FritzCallFBF.py:4395 ../FritzCallFBF.py:4401 ../FritzCallFBF.py:4468
+#: ../FritzCallFBF.py:4474 ../FritzCallFBF.py:4513
 msgid "FRITZ!Box - "
 msgstr ""
 
+#: ../FritzCallFBF.py:595 ../FritzCallFBF.py:1531 ../FritzCallFBF.py:2231
+#: ../FritzCallFBF.py:3011 ../FritzCallFBF.py:4076
 #, python-format
 msgid "FRITZ!Box - Could not load calls: %s"
 msgstr "FRITZ!Box - Aramalar yüklenemedi: %s"
 
+#: ../FritzCallFBF.py:639 ../FritzCallFBF.py:1576 ../FritzCallFBF.py:2270
 #, python-format
 msgid "FRITZ!Box - Dialling failed: %s"
 msgstr "FRITZ!Box araması başarısız: %s"
 
+#: ../FritzCallFBF.py:1145 ../FritzCallFBF.py:1858 ../FritzCallFBF.py:2677
+#: ../FritzCallFBF.py:3541 ../FritzCallFBF.py:4440
 #, python-format
 msgid "FRITZ!Box - Error getting blacklist: %s"
 msgstr ""
 
+#: ../FritzCallFBF.py:3625
 msgid "FRITZ!Box - Error getting status: "
 msgstr ""
 
+#: ../FritzCallFBF.py:1044 ../FritzCallFBF.py:1775 ../FritzCallFBF.py:2586
+#: ../FritzCallFBF.py:3449
 #, python-format
 msgid "FRITZ!Box - Error getting status: %s"
 msgstr "FRITZ!Box durum bilgisi alınamadı: %s"
 
+#: ../FritzCallFBF.py:249 ../FritzCallFBF.py:1271 ../FritzCallFBF.py:1974
+#: ../FritzCallFBF.py:2794
 msgid ""
 "FRITZ!Box - Error logging in\n"
 "\n"
 msgstr ""
 
+#: ../FritzCallFBF.py:503 ../FritzCallFBF.py:4345 ../FritzCallFBF.py:4354
 #, python-format
 msgid "FRITZ!Box - Error logging in: %s"
 msgstr "FRITZ!Box oturumu başlatılamadı: %s"
 
+#: ../FritzCallFBF.py:263 ../FritzCallFBF.py:1292 ../FritzCallFBF.py:1989
+#: ../FritzCallFBF.py:2809
 #, python-format
 msgid ""
 "FRITZ!Box - Error logging in: %s\n"
 "Disabling plugin."
 msgstr ""
 
+#: ../FritzCallFBF.py:284 ../FritzCallFBF.py:1313 ../FritzCallFBF.py:2010
+#: ../FritzCallFBF.py:2829
 #, python-format
 msgid "FRITZ!Box - Error logging out: %s"
 msgstr "FRITZ!Box oturumu kapatılamadı: %s"
 
+#: ../FritzCallFBF.py:1093 ../FritzCallFBF.py:1821 ../FritzCallFBF.py:2626
+#: ../FritzCallFBF.py:3489
 #, python-format
 msgid "FRITZ!Box - Error resetting: %s"
 msgstr "FRITZ!Box - yeniden başlatılamadı: %s"
 
+#: ../FritzCallFBF.py:2392 ../FritzCallFBF.py:3154
 #, python-format
 msgid "FRITZ!Box - Failed changing GuestAccess: %s"
 msgstr ""
 
+#: ../FritzCallFBF.py:754 ../FritzCallFBF.py:1645
 #, python-format
 msgid "FRITZ!Box - Failed changing Mailbox: %s"
 msgstr "FRITZ!Box - posta kutusu durumu değiştirilemedi: %s"
 
+#: ../FritzCallFBF.py:686 ../FritzCallFBF.py:1626 ../FritzCallFBF.py:2327
+#: ../FritzCallFBF.py:3083
 #, python-format
 msgid "FRITZ!Box - Failed changing WLAN: %s"
 msgstr "FRITZ!Box WLAN durumu değiştirilemedi: %s"
 
+#: ../plugin.py:2197
 msgid "FRITZ!Box FON address (Name or IP)"
 msgstr "FRITZ!Box adresi (isim yada IP)"
 
+#: ../plugin.py:2198
 msgid "FRITZ!Box FON firmware version"
 msgstr ""
 
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:886 ../plugin.py:2135 ../plugin.py:2162 ../plugin.py:3069
 msgid "FRITZ!Box Fon Status"
 msgstr "FRITZ!Box durumu"
 
+#: ../plugin.py:2235
 msgid "FRITZ!Box PhoneBook to read"
 msgstr ""
 
+#: ../plugin.py:2299 ../plugin.py:2966
 msgid "FRITZ!Box firmware version not configured! Please set it in the configuration."
 msgstr ""
 
+#: ../plugin.py:1485
 msgid "FRITZ!Box not available for calling"
 msgstr ""
 
+#: ../plugin.py:2205
 msgid "Filter also list of calls"
 msgstr ""
 
+#: ../plugin.py:1447 ../plugin.py:2559
 #, python-format
 msgid ""
 "Found picture\n"
@@ -326,41 +422,53 @@ msgid ""
 "But did not load. Probably not PNG, 8-bit"
 msgstr ""
 
+#: ../plugin.py:201
 msgid "France"
 msgstr "Fransa"
 
 #. TRANSLATORS: this is a window title.
+#: ../plugin.py:2183
 msgid "FritzCall Setup"
 msgstr "FritzCall Kurulumu"
 
+#: ../plugin.py:199
 msgid "Germany"
 msgstr "Almanya"
 
+#: ../plugin.py:1249 ../plugin.py:1311
 msgid "Getting calls from FRITZ!Box..."
 msgstr "Aramalar FRITZ!Box'tan alınıyor..."
 
+#: ../plugin.py:631 ../plugin.py:835
 msgid "Getting status from FRITZ!Box Fon..."
 msgstr "Durum bilgisi FRITZ!Box'tan alınıyor..."
 
+#: ../plugin.py:874 ../plugin.py:1075
 msgid "Guest access"
 msgstr ""
 
+#: ../plugin.py:1039
 msgid "Guest access not active"
 msgstr ""
 
+#: ../plugin.py:1035
 msgid "Guest access on "
 msgstr ""
 
+#: ../plugin.py:913 ../plugin.py:915
 msgid "IP Address:"
 msgstr "IP Adresi:"
 
+#: ../plugin.py:2260
 msgid "Ignore callers with no phone number"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1223
 msgid "Incoming"
 msgstr "Gelen"
 
+#: ../plugin.py:2669
 #, python-format
 msgid ""
 "Incoming Call on %(date)s at %(time)s from\n"
@@ -371,95 +479,124 @@ msgid ""
 "to: %(phone)s"
 msgstr ""
 
+#: ../plugin.py:218
 msgid "Incoming calls"
 msgstr "Gelen aramalar"
 
+#: ../plugin.py:202
 msgid "Italy"
 msgstr "İtalya"
 
+#: ../plugin.py:2385
 msgid "Last 10 calls:\n"
 msgstr "Son 10 arama:\n"
 
+#: ../plugin.py:2261
 msgid "Log level"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1407
 msgid "Lookup"
 msgstr "Sorgula"
 
+#: ../plugin.py:2204
 msgid "MSN to show (separated by ,)"
 msgstr "MSN göster (virgülle ayrılmış)"
 
+#: ../plugin.py:606
 msgid "Mailbox"
 msgstr "Posta kutusu"
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1221
 msgid "Missed"
 msgstr "Cevapsız"
 
+#: ../plugin.py:219
 msgid "Missed calls"
 msgstr "Cevapsız aramalar"
 
+#: ../plugin.py:2207
 msgid "Mute on incoming call"
 msgstr ""
 
+#: ../plugin.py:2208
 msgid "Mute on outgoing calls"
 msgstr ""
 
+#: ../plugin.py:1950
 msgid "Name"
 msgstr "Ad"
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1774
 msgid "New"
 msgstr "Yeni"
 
+#: ../plugin.py:2554
 msgid "New call"
 msgstr ""
 
+#: ../plugin.py:998
 msgid "No DECT phone registered"
 msgstr "DECT telefon tanıtılmamış"
 
+#: ../plugin.py:1030
 msgid "No call diversion active"
 msgstr ""
 
+#: ../plugin.py:1860 ../plugin.py:1877 ../plugin.py:2009
 msgid "No entry selected"
 msgstr "Seçim yapılmadı"
 
+#: ../plugin.py:978
 msgid "No mailbox active"
 msgstr "Etkin posta kutusu yok"
 
+#: ../plugin.py:2340 ../plugin.py:3027
 msgid "No phonebook"
 msgstr ""
 
+#: ../plugin.py:1471
 msgid "No result from reverse lookup"
 msgstr "Hizmet sağlayıcı rehberinde kayıt bulunamadı"
 
+#: ../plugin.py:195
 msgid "Not deactivating after time"
 msgstr ""
 
+#: ../plugin.py:1951
 msgid "Number"
 msgstr "Numara"
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1935 ../plugin.py:2127
 msgid "OK"
 msgstr "Tamam"
 
+#: ../plugin.py:1001
 msgid "One DECT phone registered"
 msgstr "Bir DECT telefon tanıtılmış"
 
+#: ../plugin.py:1024
 msgid "One call diversion active"
 msgstr ""
 
+#: ../plugin.py:990
 msgid "One mailbox active"
 msgstr "Bir posta kutusu etkin"
 
+#: ../plugin.py:205
 msgid "Others"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1225
 msgid "Outgoing"
 msgstr "Giden"
 
+#: ../plugin.py:2671
 #, python-format
 msgid ""
 "Outgoing Call on %(date)s at %(time)s to\n"
@@ -470,192 +607,252 @@ msgid ""
 "from: %(phone)s"
 msgstr ""
 
+#: ../plugin.py:220
 msgid "Outgoing calls"
 msgstr "Giden aramalar"
 
+#: ../plugin.py:2226
 msgid "Password Accessing FRITZ!Box"
 msgstr "FRITZ!Box yönetici parolası"
 
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1264 ../plugin.py:2129 ../plugin.py:3067
 msgid "Phone calls"
 msgstr "Aramalar"
 
+#: ../plugin.py:2248 ../plugin.py:2271
 msgid "PhoneBook and Faces Location"
 msgstr ""
 
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:170 ../plugin.py:1811 ../plugin.py:2131 ../plugin.py:3068
 msgid "Phonebook"
 msgstr "Rehber"
 
+#: ../plugin.py:2331 ../plugin.py:2338 ../plugin.py:2352 ../plugin.py:3017
+#: ../plugin.py:3025 ../plugin.py:3037
 msgid "Plugin not enabled"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:621 ../plugin.py:623 ../plugin.py:816 ../plugin.py:818
+#: ../plugin.py:1239 ../plugin.py:1792
 msgid "Quit"
 msgstr "Çık"
 
+#: ../plugin.py:2233
 msgid "Read PhoneBook from FRITZ!Box"
 msgstr "FRITZ!Box telefon rehberini oku"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:629 ../plugin.py:826
 msgid "Refresh status"
 msgstr "Durumu yenile"
 
+#: ../plugin.py:904
 msgid "Refreshing..."
 msgstr ""
 
+#: ../plugin.py:2251
 msgid "Reload interval for phonebooks (hours)"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:573 ../plugin.py:627 ../plugin.py:824 ../plugin.py:829
 msgid "Reset"
 msgstr "Y.başlat"
 
+#: ../plugin.py:2218
 msgid "Reverse Lookup Caller ID"
 msgstr ""
 
+#: ../plugin.py:1465
 msgid "Reverse searching..."
 msgstr "Hizmet sağlayıcı rehberi aranıyor..."
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1411
 msgid "Save"
 msgstr "Kaydet"
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:1778
 msgid "Search"
 msgstr "Ara"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:1800
 msgid "Search (case insensitive)"
 msgstr "Ara (büyük-küçük harf duyarlı)"
 
+#: ../plugin.py:2018
 msgid "Search phonebook"
 msgstr "Rehberde ara"
 
+#: ../plugin.py:1054 ../plugin.py:1075
 msgid "Setting..."
 msgstr ""
 
+#: ../FritzCallFBF.py:400 ../FritzCallFBF.py:427 ../FritzCallFBF.py:1428
+#: ../FritzCallFBF.py:2112 ../FritzCallFBF.py:2896 ../FritzCallFBF.py:4280
 msgid "Shortcut"
 msgstr "Kısayol"
 
+#: ../plugin.py:2210
 msgid "Show Blocked Calls"
 msgstr ""
 
+#: ../plugin.py:2211
 msgid "Show Outgoing Calls"
 msgstr "Giden aramalarda göster"
 
+#: ../plugin.py:2200
 msgid "Show after Standby"
 msgstr "Hazırda bekletme kipine geçtikten sonra"
 
+#: ../plugin.py:2237
 msgid "Show also internal numbers"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:1237 ../plugin.py:1790
 msgid "Show details of entry"
 msgstr "Kaydın detaylarını göster"
 
+#: ../plugin.py:2202
 msgid "Show only calls for specific MSN"
 msgstr ""
 
+#: ../plugin.py:1012
 msgid "Software fax active"
 msgstr "Yazılım bazlı faks etkin"
 
+#: ../plugin.py:1016
 msgid "Software fax inactive"
 msgstr ""
 
+#: ../plugin.py:909 ../plugin.py:941 ../plugin.py:969
 msgid "Status not available"
 msgstr "Durum bilgisi uygun değil"
 
+#: ../plugin.py:2257
 msgid "Strip Leading 0"
 msgstr "Öndeki 0'ı ayır"
 
+#: ../plugin.py:203
 msgid "Switzerland"
 msgstr "İsviçre"
 
+#: ../plugin.py:200
 msgid "The Netherlands"
 msgstr "Hollanda"
 
+#: ../plugin.py:2940 ../plugin.py:2946
 #, python-format
 msgid ""
 "There might be a problem with your FritzCall %spassword.\n"
 "Check in the configuration."
 msgstr ""
 
+#: ../plugin.py:2214
 msgid "Timeout for Call Notifications (seconds)"
 msgstr "Arama uyarıları için zaman aşımı süresi (saniye)"
 
+#: ../plugin.py:2285 ../plugin.py:2951
 msgid "To enjoy more functionalities of your FRITZ!Box, configure the firmware version!"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:597
 msgid "Toggle 1. mailbox"
 msgstr "1. posta kutusunu aç/kapat"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:599
 msgid "Toggle 2. mailbox"
 msgstr "2. posta kutusunu aç/kapat"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:601
 msgid "Toggle 3. mailbox"
 msgstr "3. posta kutusunu aç/kapat"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:603
 msgid "Toggle 4. mailbox"
 msgstr "4. posta kutusunu aç/kapat"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:605
 msgid "Toggle 5. mailbox"
 msgstr "5. posta kutusunu aç/kapat"
 
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:579
 msgid "Toggle Mailbox"
 msgstr "Posta aç/kapa"
 
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: keep it short, this is a button
+#: ../plugin.py:575 ../plugin.py:625 ../plugin.py:820 ../plugin.py:831
 msgid "Toggle WLAN"
 msgstr "WLAN aç/kapa"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:822
 msgid "Toggle WLAN guest access"
 msgstr ""
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:595
 msgid "Toggle all mailboxes"
 msgstr "Posta kutularını aç/kapat"
 
+#: ../FritzCallFBF.py:107 ../plugin.py:1339 ../plugin.py:2406 ../plugin.py:2409
+#: ../plugin.py:2450 ../plugin.py:2748 ../plugin.py:2871 ../plugin.py:2876
+#: ../plugin.py:2904
 msgid "UNKNOWN"
 msgstr "BİLİNMİYOR"
 
+#: ../FritzCallFBF.py:3700 ../FritzCallFBF.py:4130
 msgid "Unknown"
 msgstr ""
 
+#: ../FritzCallFBF.py:3217 ../FritzCallFBF.py:3673
 msgid "Update available"
 msgstr ""
 
+#: ../plugin.py:2262
 msgid "Use HTTPS to communicate with FRITZ!Box"
 msgstr ""
 
+#: ../plugin.py:2244
 msgid "Use internal PhoneBook"
 msgstr "FRITZ!Box rehberini kullan"
 
+#: ../plugin.py:2225
 msgid "User name Accessing FRITZ!Box"
 msgstr ""
 
+#: ../FritzCallFBF.py:402 ../FritzCallFBF.py:429 ../FritzCallFBF.py:1430
+#: ../FritzCallFBF.py:2114 ../FritzCallFBF.py:2898 ../FritzCallFBF.py:4282
 msgid "Vanity"
 msgstr "Vanity"
 
+#: ../plugin.py:1077
 msgid "WLAN not active"
 msgstr ""
 
+#: ../plugin.py:2120
 msgid "You need to enable the monitoring on your FRITZ!Box by dialing #96*5*!"
 msgstr "FRITZ!Box'ta çağrı görüntülemeyi etkinleştirmek için #96*5* 'ı aramalısınız!"
 
+#: ../FritzCallFBF.py:531
 msgid ""
 "You need to set the password of the FRITZ!Box\n"
 "in the configuration dialog to display calls\n"
@@ -667,129 +864,186 @@ msgstr ""
 "\n"
 "Bağlantı sorunu yaşarsanız, tekrar deneyin."
 
+#: ../plugin.py:143
 msgid "before 05.27"
 msgstr ""
 
+#: ../plugin.py:1026
 msgid "call diversions active"
 msgstr ""
 
+#: ../FritzCallFBF.py:3225 ../FritzCallFBF.py:3683
 msgid "calls in mailbox"
 msgstr ""
 
+#: ../plugin.py:960
 msgid "devices active"
 msgstr "cihaz etkin"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:2154
 msgid "display calls"
 msgstr "aramaları göster"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:2156
 msgid "display phonebook"
 msgstr "rehberi göster"
 
+#: ../FritzCallFBF.py:529
 msgid "done"
 msgstr "tamamlandı"
 
+#: ../FritzCallFBF.py:542
 msgid "done, using last list"
 msgstr "tamamlandı, son liste kullanıyor"
 
+#: ../plugin.py:953
 msgid "encrypted"
 msgstr "şifrelenmiş"
 
+#: ../FritzCallFBF.py:4269
 msgid "fax_home"
 msgstr ""
 
+#: ../FritzCallFBF.py:4269
 msgid "fax_work"
 msgstr ""
 
+#: ../FritzCallFBF.py:518 ../FritzCallFBF.py:1451 ../FritzCallFBF.py:2153
+#: ../FritzCallFBF.py:2934 ../FritzCallFBF.py:4095
 msgid "finishing"
 msgstr "sonlandırılıyor"
 
+#: ../plugin.py:2946
 msgid "guest "
 msgstr ""
 
+#: ../FritzCallFBF.py:395
 msgid "home"
 msgstr "ev"
 
+#: ../FritzCallFBF.py:162 ../FritzCallFBF.py:1193
 msgid "login"
 msgstr "oturum açılıyor"
 
+#: ../FritzCallFBF.py:253 ../FritzCallFBF.py:1275 ../FritzCallFBF.py:1978
+#: ../FritzCallFBF.py:2798
 msgid "login ok"
 msgstr "oturum açıldı"
 
+#: ../FritzCallFBF.py:244 ../FritzCallFBF.py:1266 ../FritzCallFBF.py:1960
+#: ../FritzCallFBF.py:2780
 msgid "login verification"
 msgstr "oturum doğrulama"
 
+#: ../plugin.py:992
 msgid "mailboxes active"
 msgstr "posta kutusu etkin"
 
+#: ../FritzCallFBF.py:393
 msgid "mobile"
 msgstr "cep"
 
+#: ../plugin.py:2380
 msgid "no calls"
 msgstr ""
 
+#: ../plugin.py:956
 msgid "no device active"
 msgstr "etkin cihaz yok"
 
+#: ../FritzCallFBF.py:1582 ../FritzCallFBF.py:1633 ../FritzCallFBF.py:2399
+#: ../FritzCallFBF.py:3024 ../FritzCallFBF.py:3167
 msgid "not available with this firmware version"
 msgstr ""
 
+#: ../plugin.py:143
 msgid "not configured"
 msgstr ""
 
+#: ../plugin.py:951
 msgid "not encrypted"
 msgstr "şifrelenmemiş"
 
+#: ../FritzCallFBF.py:4552 ../FritzCallFBF.py:4601 ../FritzCallFBF.py:4608
+#: ../FritzCallFBF.py:4618 ../FritzCallFBF.py:4628 ../FritzCallFBF.py:4638
+#: ../FritzCallFBF.py:4648 ../FritzCallFBF.py:4658 ../FritzCallFBF.py:4665
 msgid "not yet implemented"
 msgstr ""
 
+#: ../plugin.py:147
 msgid "nothing"
 msgstr ""
 
+#: ../plugin.py:2875
 msgid "number suppressed"
 msgstr ""
 
+#: ../FritzCallFBF.py:3338 ../FritzCallFBF.py:3349 ../FritzCallFBF.py:3913
+#: ../FritzCallFBF.py:3932 ../FritzCallFBF.py:3954 ../FritzCallFBF.py:3962
+#: ../plugin.py:184
 msgid "off"
 msgstr ""
 
+#: ../FritzCallFBF.py:3336 ../FritzCallFBF.py:3347 ../FritzCallFBF.py:3353
+#: ../FritzCallFBF.py:3911 ../FritzCallFBF.py:3930 ../FritzCallFBF.py:3937
+#: ../FritzCallFBF.py:3939 ../FritzCallFBF.py:3952 ../FritzCallFBF.py:3960
+#: ../plugin.py:184
 msgid "on"
 msgstr ""
 
+#: ../plugin.py:958
 msgid "one device active"
 msgstr "Bir cihaz etkin"
 
+#: ../plugin.py:184
 msgid "only failed"
 msgstr ""
 
+#: ../FritzCallFBF.py:4269
 msgid "pager"
 msgstr ""
 
+#: ../FritzCallFBF.py:507 ../FritzCallFBF.py:1462 ../FritzCallFBF.py:2142
+#: ../FritzCallFBF.py:2922 ../FritzCallFBF.py:4082
 msgid "preparing"
 msgstr "hazırlanıyor"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:2150 ../plugin.py:2160
 msgid "quit"
 msgstr "çık"
 
 #. TRANSLATORS: keep it short, this is a help text
+#: ../plugin.py:2152 ../plugin.py:2158
 msgid "save and quit"
 msgstr "kaydet ve çık"
 
+#: ../plugin.py:159
 msgid "show as list"
 msgstr "liste olarak göster"
 
+#: ../plugin.py:159
 msgid "show each call"
 msgstr "aramaları ayrı göster"
 
+#: ../plugin.py:159
 msgid "show nothing"
 msgstr "birşey gösterme"
 
+#: ../FritzCallFBF.py:3311 ../FritzCallFBF.py:3864
 msgid "with"
 msgstr ""
 
+#: ../FritzCallFBF.py:397
 msgid "work"
 msgstr "iş"
 
+#: ../FritzCallFBF.py:1974 ../FritzCallFBF.py:2794 ../FritzCallFBF.py:3625
+#: ../FritzCallFBF.py:4076 ../FritzCallFBF.py:4206 ../FritzCallFBF.py:4223
+#: ../FritzCallFBF.py:4345 ../FritzCallFBF.py:4354 ../FritzCallFBF.py:4373
+#: ../FritzCallFBF.py:4395 ../FritzCallFBF.py:4440 ../FritzCallFBF.py:4468
+#: ../FritzCallFBF.py:4513
 msgid "wrong user or password?"
 msgstr ""
